@@ -1,7 +1,8 @@
 using System;
 using Xunit;
+using System.Runtime.CompilerServices;
 
-// [module:NoneNullType]
+// [module: NonNullTypes]
 
 namespace Ref {
     class P {
@@ -20,7 +21,7 @@ namespace Ref {
     public class UnitTest1 {
         [Fact]
         public void Test1() {
-            void A(P p) {}
+            void A(P p) { }
 
         }
 

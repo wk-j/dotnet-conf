@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <ProjectReference Include="..\Standard.Library\Standard.Library.csproj" />
+        <Reference Include="netstandard" />
+    </ItemGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFrameworks>netcoreapp2.1;net471</TargetFrameworks>
+    </PropertyGroup>
+</Project>
