@@ -5,6 +5,10 @@
     </ItemGroup>
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFrameworks>netcoreapp2.1;net47</TargetFrameworks>
+        <TargetFrameworks>netcoreapp2.1;net461;net462;net47</TargetFrameworks>
+    </PropertyGroup>
+    <PropertyGroup>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
     </PropertyGroup>
 </Project>
